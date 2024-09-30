@@ -285,7 +285,7 @@ def activate_assistant():
                     speak('Okay See ya')
                     break
                 else:
-                    api_key = "sk-proj-fqNBdndZlhUjr4BzXnW7T3BlbkFJyS7J9eErB7AuvXSOMVHI"
+                    api_key = ""
                     response = get_chatgpt_response(prompt, api_key)
                     print("Penguin Response:", response)
                     speak(response)
