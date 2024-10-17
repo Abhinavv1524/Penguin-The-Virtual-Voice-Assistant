@@ -1,49 +1,45 @@
-# Byte-compiled / optimized / DLL files
-__pycache__/
-*.py[cod]
-*.pyo
-*.pyd
-
-# Virtual environment
+# Ignore the virtual environment directory
+.venv/
 venv/
 env/
-.venv/
-.venv/*
+ENV/
+env.bak/
+venv.bak/
 
-# Jupyter Notebook checkpoints
-*.ipynb_checkpoints
+# Python bytecode
+__pycache__/
+*.py[cod]
 
-# VS Code settings
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+.wheelhouse/
+share/python-wheels/
+
+# Pytest
+.cache
+.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IDE files
 .vscode/
+.idea/
+*.swp
 
-# Mac OS system files
-.DS_Store
-
-# Windows system files
-Thumbs.db
-
-# Environment variables or sensitive data
+# Local environment variables
 .env
-config.json
-*.key
-*.pem
 
-# Logs
-*.log
-*.csv
-
-# Image outputs
-captured_image.jpg
-image.jpg
-
-# OpenAI API Keys or Credentials
-*.secrets
-
-# Large files or datasets
-*.mp4
-*.avi
-*.mkv
-*.zip
-
-# Torch cache
-.cache/
+#ignore config files
+penguin_assistant/config.py
+config.py
